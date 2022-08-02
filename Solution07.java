@@ -3,9 +3,6 @@ package com.codestates.coplit;
 import java.util.HashMap;
 
 public class Solution07 {
-
-
-
     public static void main(String[] args) {
 
         String[][] arr = {
