@@ -12,14 +12,15 @@ import java.util.Locale;
 public class Solution09 {
     public static void main(String[] args) {
 
-        boolean output = ABCheck("lane Borrowed");
+       // boolean output = ABCheck("lane Borrowed");
+        boolean output = ABCheck("TgDrnjAz6kAbdEaxFkrKIsa");
         System.out.println(output); // --> true
     }
 
     public static boolean ABCheck(String str){
 
         str = str.toLowerCase();
-        for (int i = 0 ; str.length() > i ; i++ ){
+        for (int i = 0 ; str.length() -4 > i ; i++ ){
 
             if ((str.charAt(i) == 'a' && str.charAt(i+4) == 'b') ||(str.charAt(i) == 'b' && str.charAt(i+4) == 'a') ){
                 return true;
