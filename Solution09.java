@@ -12,9 +12,10 @@ import java.util.Locale;
 public class Solution09 {
     public static void main(String[] args) {
 
-       // boolean output = ABCheck("lane Borrowed");
-        boolean output = ABCheck("TgDrnjAz6kAbdEaxFkrKIsa");
-        System.out.println(output); // --> true
+        boolean output1 = ABCheck("lane Borrowed");
+        boolean output2 = ABCheck("TgDrnjAz6kAbdEaxFkrKIsa");
+        System.out.println(output1); // --> true
+        System.out.println(output2); // --> false
     }
 
     public static boolean ABCheck(String str){
